@@ -7,7 +7,8 @@ params:
   homeInfoParams:
     Title: "Welcome!"
     Content: "I write about AI and Programming."
-
+  frontmatter:
+    format: yaml
   socialIcons:
     - name: github
       url: "https://github.com/hoangqnguyen/"

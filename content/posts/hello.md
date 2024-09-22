@@ -17,9 +17,17 @@ If you ever see this, this is my first post ever on this site LOL.
 
 Here is an inline equation: $E = mc^2$ or $ \text{Energy} = \text{Milk} \times \text{Coffee}^2  $
 
-Hello world python code:
-
-
 ```python
 # This is a simple Python program
 print("Hello, World!")
+```
+
+```cpp
+// This is a simple C++ program
+#include <iostream>
+
+int main() {
+    std::cout << "Hello, World!" << std::endl;
+    return 0;
+}
+```
