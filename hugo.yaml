@@ -1,0 +1,40 @@
+baseURL: https://example.org/
+languageCode: en-us
+title: Blog of Hoang
+theme: ["PaperMod"]
+
+params:
+  homeInfoParams:
+    Title: "Welcome!"
+    Content: "I write about AI and Programming."
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/hoangqnguyen/"
+    - name: twitter
+      url: "https://x.com/hoangkist/"
+
+
+  ShowBreadCrumbs: true
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+
+menu:
+  main:
+    - identifier: categories
+      name: Categories
+      url: /categories/
+      weight: 1
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 2
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 3
+    - identifier: archives
+      name: Archives
+      url: /archives/
+      weight: 4
