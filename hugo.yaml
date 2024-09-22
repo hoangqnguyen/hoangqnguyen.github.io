@@ -11,14 +11,20 @@ params:
   socialIcons:
     - name: github
       url: "https://github.com/hoangqnguyen/"
-    - name: twitter
+    - name: x
       url: "https://x.com/hoangkist/"
+    - name: email
+      url: "mailto:nguyenquochoang.ds@gmail.com"
 
+  math:
+    enable: true
+    library: katex
 
   ShowBreadCrumbs: true
   ShowReadingTime: true
   ShowShareButtons: true
   ShowPostNavLinks: true
+  showToc: true
 
 menu:
   main:
